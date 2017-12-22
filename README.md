@@ -7,3 +7,9 @@
 - `wrk` HTTP并发性能测试
 - `nload` 查看网卡流量
 - `telnet`
+
+## docker build 
+
+```bash
+docker build -t vicanso/tools .
+```
