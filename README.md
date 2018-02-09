@@ -6,6 +6,7 @@
 - `jj` 格式化JSON
 - `wrk` HTTP并发性能测试
 - `nload` 查看网卡流量
+- `curl` HTTP调用
 - `telnet`
 
 ## docker build 
