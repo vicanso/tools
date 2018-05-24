@@ -1,9 +1,3 @@
-language: go
-sudo: required
-
-go:
-  - 1.x
-
 script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t tools .
