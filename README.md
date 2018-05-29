@@ -39,3 +39,15 @@ curl 'https://xs.aslant.site/api/users/me' | jj -p
 ```bash
 wrk -t10 -c200 -d1m -H 'Accept-Encoding: br, gzip, deflate' 'http://127.0.0.1:3015/css/app.f81943d4.css' --latency
 ```
+
+### dig
+
+```bash
+dig @localhost -p 1053 a www.baidu.com
+```
+
+### traceroute
+
+```bash
+traceroute www.baidu.com
+```
